@@ -118,3 +118,6 @@ no se ejecute ninguna de las condiciones anteriores ejecuta esto. Ya que es una
 condición de descarte, no necesitamos proveer a la palabra reservada con una
 expresión que evaluar.
 """
+
+# Python es un lenguaje que se parece mucho al inglés plano. Si sabes inglés, leer
+# un código python resulta muy fácil.
