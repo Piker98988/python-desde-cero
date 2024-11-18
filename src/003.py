@@ -39,5 +39,4 @@ son como flechas a valores que nosotros elijamos cuando las definamos usando el
 operador de asignación =.
 """
 
-# Si no se entiende mensaje por WhatsApp a
-# +34 660 93 07 09 (Iker)(Yo)(Escríbeme Míriam porfa)
+# Si no se entiende, siéntete libre de abrir un issue
