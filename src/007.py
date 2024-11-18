@@ -28,7 +28,7 @@ operación_not: bool = not True
 # ? not = False
 
 """
-Esto lo hemos dado en SOM. Debería de ser fácil:
+Debería de ser fácil:
 
 OR -> True or False -> (Hay un True, por tanto la expresión "True or False" es verdadera) -> True
 AND -> True and False -> (Los dos tienen que ser true, si no, es false) -> False
