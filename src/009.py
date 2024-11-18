@@ -155,4 +155,4 @@ vector.
 """
 
 # ? Este tema es complejo. Si no se entiende correctamente, ya sabes,
-# ? WhatsApp a +34 660...
+# ? abre un issue.
