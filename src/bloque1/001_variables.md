@@ -53,4 +53,4 @@ mi_variable = 2
 
 Esta variable ahora no guarda un texto, tiene **un número**. Como he dicho antes, podemos guardar **muchas cosas** en los cajones, **pero solo una cosas cada vez**, porque si no nos liamos.
 
-Ahora que hemos visto esto, pasemos a conceptos más avanzados, como [**tipos de datos**](tipos_1.md)
+Ahora que hemos visto esto, pasemos a conceptos más avanzados, como [**tipos de datos**](002_tipos_1.md)

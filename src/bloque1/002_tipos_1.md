@@ -65,4 +65,4 @@ cajón_con_punto_flotante: float = 123,456
 cajón_numerado: int = 123456
 ```
 
-Esos son los tipos de datos **por ahora**. Ahora veremos [cómo interactuar con el usuario de forma básica](in_out_1.md).
+Esos son los tipos de datos **por ahora**. Ahora veremos [cómo interactuar con el usuario de forma básica](003_in_out_1.md).

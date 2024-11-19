@@ -45,4 +45,4 @@ Aquí podemos ver cómo ***referenciamos*** la variable `cajón`, es decir, le p
 
 Recuerda que si algo no se entiende correctamente, **eres libre de abrir un issue en la página de GitHub**.
 
-**Ahora pasamos a [buenas prácticas](buenas_practicas_1.md).**
+**Ahora pasamos a [buenas prácticas](004_buenas_practicas_1.md).**
