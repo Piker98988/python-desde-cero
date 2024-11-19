@@ -10,7 +10,7 @@ print("Función print")
 
 ## ¿Qué es una función?
 
-En este código podemos ver cómo usamos **la función print**. Las funciones se pueden comparar con *máquinas*; **máquinas en las que introducimos algo y hace algo con ese mismo algo**. Es decir, si tu tienes una función f(x), esta misma función **te devolverá resultados diferentes dependiendo de x**, lo que básicamente se puede **comparar con una máquina**. Digamos que:
+En este código podemos ver cómo usamos **la función print**. Las funciones se pueden comparar con *máquinas*; **máquinas en las que introducimos algo y hace algo con ese mismo algo**. Es decir, si tu tienes una función $f(x)$, esta misma función **te devolverá resultados diferentes dependiendo de x**, lo que básicamente se puede **comparar con una máquina**. Digamos que:
 
 $$
 f(x) = x + 1
