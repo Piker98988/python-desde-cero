@@ -37,12 +37,12 @@ No voy a hacer un tutorial de [Sublime y Helix](#sublime-text-y-helix), ya que n
 
 ## ¿Qué IDE has elegido?
 
-Las guías de instalación y configuración están en los siguientes archivos para cada uno
+Las guías de instalación y configuración están en los siguientes archivos para cada uno. Antes de dirigirte a instalar tu IDE, te recomiendo que te instales Python primero.
+
+### [Instalar Python](./src/env/py/install.md)
 
 ### [PyCharm CE](./src/env/pycharm/install.md)
 
-### Visual Studio x
+### [VSCodium](./src/env/visual%20studio/codium/install.md)
 
-#### [VSCodium](./src/env/visual%20studio/codium/install.md)
-
-#### [VSCode](./src/env/visual%20studio/code/install.md)
+### [VSCode](./src/env/visual%20studio/code/install.md)
