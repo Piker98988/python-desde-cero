@@ -169,7 +169,7 @@ Aclaración: los TODO en comentarios los resaltan automáticamente en TODOS los 
 print() # TODO no me acuerdo de qué tenía que hacer
 ```
 
-#### [Puntos suspensivos](#)
+#### [Puntos suspensivos]()
 
 #### Docstrings
 
@@ -197,6 +197,6 @@ mi_variable: str = "valor"
 print(mi_variable)
 ```
 
-##### [Funciones](#)
+##### [Funciones]()
 
-## [Pasamos a I/O II](005_in_out_2.md)
+## [Pasamos a I/O II](005_in_out_2.md#)
