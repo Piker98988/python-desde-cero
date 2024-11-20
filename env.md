@@ -41,7 +41,7 @@ Las guías de instalación y configuración están en los siguientes archivos pa
 
 ### [Instalar Python](./src/env/py/install.md)
 
-### [PyCharm CE](./src/env/pycharm/install.md)
+### [PyCharm CE](./src/env/pycharm/toolbox/install.md)
 
 ### [VSCodium](./src/env/visual%20studio/codium/install.md)
 
