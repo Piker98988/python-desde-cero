@@ -14,8 +14,10 @@ Muy potente con mucho poder de desarrollo, aunque puede ser difícil para empeza
 
 ### VSCodium y Visual Studio Code
 
+<div>
 <img src="./src/env/img/vs/codium/codium.png" alt="codium" width="300"/>
 <img src="./src/env/img/vs/code/vscode.png" alt="code" width="300"/>
+</div>
 
 VSCodium es un clon del famoso Visual Studio Code sin telemetría de Microsoft. Si vas a usar VSCode, descarga mejor VSCodium. Ahora haremos un tutorial para cada IDE. VSCode es un editor de código muy ligero, en el que instalas lo que vas a usar y punto, nada más.
 
