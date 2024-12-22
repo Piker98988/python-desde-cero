@@ -18,3 +18,6 @@ sys.stdout.flush()
 
 nombre: str = sys.stdin.readline()
 ```
+
+> [!NOTE]
+> En este código, preguntamos al usuario cómo se llama usando `stdout`, hacemos un `flush()`, y finalmente guardamos su entrada en la variable `nombre`.

@@ -5,7 +5,7 @@ Python como lenguaje tiene varias cosas que podemos guardar en nuestros cajones,
 ## Tipos básicos
 
 - String
-- Int
+- [Int](./007_trabajar_con_int.md)
 - Float
 - [List](listas_1.md)
 

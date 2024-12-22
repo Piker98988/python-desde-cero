@@ -197,6 +197,4 @@ mi_variable: str = "valor"
 print(mi_variable)
 ```
 
-##### [Funciones]()
-
 ## [Pasamos a I/O II](005_in_out_2.md#)

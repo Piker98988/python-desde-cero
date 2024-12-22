@@ -25,3 +25,6 @@ En esencia, `input()` es una función que nos permite **pedirle una entrada** al
 ## Reto
 
 Aunque no hayamos visto [operadores aritméticos](006_int.md), intenta escribir un programa de calculadora, el cual le pida la entrada al usuario dos veces y luego te dé ese mismo número sumado. **Continúa cuando hayas resuelto el ejercicio.** Tienes una solución con los conocimientos que hemos ganado en el [siguiente archivo](005_solucion.py).
+
+> [!TIP]
+> Como ayuda para hacer esto, te voy a decir que **puedes sumar dos números usando simplemente un +**; aparte, como hemos estado viendo tipos de datos, la función `input()` devuelve un `str`, y para operar con números necesitamos un `int`. **Puedes convertir cualquier `str` en un `int` rodeando lo que sea que quieras convertir con `int()`**, tal que así: `variable: int = int(input("Cuál es tu edad? "))`.
