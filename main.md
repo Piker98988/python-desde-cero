@@ -1,6 +1,6 @@
 # Bienvenido a Python
 
-Este es un curso rápido y extenso de iniciación a la programación y pensamiento computacional usando Python. El objetivo es que después de completar este curso, tengas suficiente soltura como para elegir tu idioma de programación favorito y comiences a aprenderlo.
+Este es un curso rápido y extenso de iniciación a la programación y pensamiento computacional usando Python. El objetivo es que después de completar este curso, tengas suficiente soltura como para elegir tu idioma de programación favorito y comiences a aprenderlo, ya sea por tu cuenta o usando cursos.
 
 ## Recomendaciones
 
@@ -10,4 +10,4 @@ Este es un curso rápido y extenso de iniciación a la programación y pensamien
 
 ## Para empezar
 
-Antes de nada **dirígete a [env.md](env.md)** para instalar tu **IDE** y poder editar el código **como un profesional**.
+Antes de nada **dirígete a [la configuración inicial del entorno de desarrollo](env.md)** para instalar tu **IDE** y poder editar  código **como un profesional**.
