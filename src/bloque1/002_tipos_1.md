@@ -8,15 +8,19 @@ Python como lenguaje tiene varias cosas que podemos guardar en nuestros cajones,
 - [Int](./007_trabajar_con_int.md)
 - Float
 - [List](listas_1.md)
+- [Boolean](./008_tipo_bool.md)
 
 ### String
 
-String viene de **cadena en inglés**. En programación, no llamamos a las frases *"frases"*, si no que las llamamos **cadenas**. **Cualquier texto puede ser una cadena**, ya que de ahí viene el nombre, *cadena de caracteres*. Python lo llama ***"str"***, y para crearlo tenemos que rodear **cualquier** cadena de texto con comillas dobles o simples:
+String viene de **cadena en inglés**. En programación, no llamamos a las frases *"frases"*, si no que las llamamos **cadenas**. **Cualquier texto puede ser una cadena**, ya que de ahí viene el nombre, *cadena de caracteres*. Python lo llama ***"str"***, y para crearlo tenemos que rodear **cualquier** texto con comillas dobles o simples:
 
 ```python
 "cadena"
 'cadena también'
 ```
+
+> [!NOTE]
+> Cualquier texto rodeado entre comillas se le llamará cadena o string a partir de ahora, ya que el estándar de hoy en día se basa en instancias de objetos, cuando tengamos una cadena, la llamaremos *instancia del tipo string*. En programación orientada a objetos entenderemos por qué lo llamamos así.
 
 ### Int
 
@@ -28,6 +32,9 @@ Los Int toman su nombre del inglés **integer**, que **traducido al español es 
 7890293741234986192387
 -4569
 ```
+
+> [!NOTE]
+> En caso de los ints, se aplica lo mismo, cualquier número en python (que no forme parte de una cadena) es una *instancia* del tipo **int**.
 
 ### Float
 
@@ -49,6 +56,15 @@ Es una coma flotante porque la podemos mover a dónde sea en esa representación
     Para magnitudes grandes
 ```
 
+### Booleano
+
+Los tipos booleanos aparecen por el álgebra de bool, pronunciado "buul" o "buleano". Estos tipos representan *Sí* o *No*, **"Verdadero"** o **"Falso"**. Las palabras reservadas `True` y `False` representan estos valores. En python se los llama **`bool`**.
+
+```python
+verdadero = True
+falso = False
+```
+
 ## Sintaxis
 
 Podemos especificar lo que queremos que haya en una variable poniendo **dos puntos y el tipo que queramos** antes de darle un valor a nuestra variable, es decir, **entre el operador y el nombre**, tal que así:
@@ -60,9 +76,11 @@ cajón: str = "Calcetines"
 Ahora, podemos usar `cajón` **donde queramos**, aunque le hemos dicho que **es un `str`**, que viene de `string`. Cada tipo **significa una cosa diferente**:
 
 ```python
-cajón_con_punto_flotante: float = 123,456
+cajón_con_punto_flotante: float = 123.456
 
 cajón_numerado: int = 123456
+
+cajón_de_mentira: bool = False
 ```
 
 Esos son los tipos de datos **por ahora**. Ahora veremos [cómo interactuar con el usuario de forma básica](003_in_out_1.md).

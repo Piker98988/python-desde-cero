@@ -1,6 +1,6 @@
 # Buenas prácticas I
 
-Cuando escribas código, yo te recomiendo como programador Python varias cosas, las cuales te van a ayudar a esto:
+Cuando escribas código, yo te recomiendo como programador Python varias cosas, las cuales te van a ayudar bastante si quieres lo siguiente:
 
 - Parecer mejor programador aunque no tengas ni idea
 - Entender mejor tu propio código
@@ -9,6 +9,9 @@ Cuando escribas código, yo te recomiendo como programador Python varias cosas, 
 ## Usar `sys.stdout.write()` en vez de `print()`
 
 Esta manera es de **más bajo nivel**, lo que significa que de esta manera estamos **llamando al sistema operativo directamente**, aparte de ser **más seguro para mandar texto a consola**, ya que **solamente admite un tipo `str`** en vez de cualquier tipo.
+
+> [!IMPORTANT]
+> Recuerda que eres libre de hacer cualquier cosa, no se te va a obligar a cumplir con estas prácticas, ya que, en programación, no hay código perfecto, aunque hay códigos mejores que otros.
 
 ### Pequeño paréntesis
 
@@ -20,7 +23,7 @@ Un buen programador dirá que en este método, tomando el ejemplo de antes, se t
 
 ### Razones
 
-Una vez explicado eso, voy a continuar diciendo que `print()` usa `obj.__str__()` para **cualquier** cosa que le des, **como por ejemplo un `int`**. Cuando usas `sys.stdout.write()`, si le pasas un `int` **te da error**, ya que esto **no es un `str`**.
+Una vez explicado eso, voy a continuar diciendo que `print()` usa `.__str__()` para **cualquier** cosa que le des, **como por ejemplo un `int`**. Cuando usas `sys.stdout.write()`, si le pasas un `int` **te da error**, ya que esto **no es un `str`**.
 
 Desde mi punto de vista, `sys.stdout.write()` es una manera **mucho mejor** de paliar la necesidad de **mandar información a consola** por **seguridad** y esas cosas; aparte, `print()` **pone un salto de línea al final**, y `sys.stdout.write()` **no**, lo que ya **es una ventaja** de por sí, ya que **te da más control sobre cómo quieres que python haga las cosas**.
 
@@ -31,7 +34,7 @@ Si quieres usar la funcionalidad del `print()` dentro de `sys.stdout.write()` lo
 #### Uso común
 
 ```python
-import sys 
+import sys
 # sys.stdout.write() está en el módulo sys, que debemos importar
 
 sys.stdout.write("Hola mundo\n")
